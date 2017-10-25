@@ -6,4 +6,6 @@
 4. Thread can be created either implemeting Runnable interface or extending Thread class.
 5. `Thread.sleep` causes current thread to suspand execution (two variation - miliseconds or nenoseconds) but can not be guranteed to be precise.  it throws `InterruptedException` when another thread interrupts the current thread while `sleep` is active.
 6. The interrupt mechanism is implemented using an internal flag known as the interrupt status. Any method that exits by throwing `InterruptException` clears interrupt status. 
-7. 
+
+## Synchronization
+Synchronization is process of preventing *Thread Interference* and *Memory Consistency Errors* which happened during thread communication. Drawback of synchronization would be *thread contention* which occure when two or more thread try to access same resources simultaneously and cause Java runtime to execute one or more thread slowly or suspend their execution. 
