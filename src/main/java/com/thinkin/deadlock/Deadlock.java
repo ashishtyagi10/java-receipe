@@ -1,5 +1,8 @@
 package com.thinkin.deadlock;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Deadlock {
     public static void main(String... args) {
         final Friend alpha = new Friend("alpha");

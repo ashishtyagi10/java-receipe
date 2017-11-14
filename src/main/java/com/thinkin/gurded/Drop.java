@@ -1,5 +1,8 @@
 package com.thinkin.gurded;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Drop {
     private String message;
     private boolean empty = true;

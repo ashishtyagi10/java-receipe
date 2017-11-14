@@ -1,7 +1,10 @@
 package com.thinkin.gurded;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Random;
 
+@Component
 public class Producer implements Runnable {
     private Drop drop;
 
